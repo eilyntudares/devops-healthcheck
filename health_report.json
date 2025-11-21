@@ -1,0 +1,30 @@
+{
+  "checked_at": "2025-11-21T03:54:15.557296+00:00",
+  "summary": {
+    "total": 2,
+    "healthy": 2,
+    "unhealthy": 0
+  },
+  "services": [
+    {
+      "name": "Example",
+      "url": "https://example.com",
+      "status_code": 200,
+      "expected_status": 200,
+      "latency_ms": 325.29,
+      "max_latency_ms": 1000,
+      "healthy": true,
+      "error": null
+    },
+    {
+      "name": "Google",
+      "url": "https://www.google.com",
+      "status_code": 200,
+      "expected_status": 200,
+      "latency_ms": 295.85,
+      "max_latency_ms": 800,
+      "healthy": true,
+      "error": null
+    }
+  ]
+}

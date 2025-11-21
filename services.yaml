@@ -1,0 +1,10 @@
+services:
+  - name: Example
+    url: https://example.com
+    expected_status: 200
+    max_latency_ms: 1000
+
+  - name: Google
+    url: https://www.google.com
+    expected_status: 200
+    max_latency_ms: 800
